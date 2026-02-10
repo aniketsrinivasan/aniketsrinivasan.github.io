@@ -39,9 +39,10 @@ I also work part-time as an **ML Researcher** at [Bradbury Group](https://bradbu
 ## Things I've Done
 - I went on exchange to the National University of Singapore (NUS) for Fall 2025.
 - I demoed audio-reactive generative art at the [Socratica](https://www.socratica.info/) Symposium 2025.
-- I was the first engineering hire at [CaseClock](https://caseclock.app/) where I built AI-native products for lawyers, from scratch.
+- I was the first engineering hire at [CaseClock](https://caseclock.ai/) where I built AI-native products for lawyers, from scratch.
 - I researched [wind dynamics super-resolution](https://arxiv.org/abs/2512.13729) with Jacob Schnell, under Prof. Yuhao Chen, at the University of Waterloo.
-- I wrote [algorithms for stable and deterministic module replacement in transformers](https://arxiv.org/abs/2511.18670) with the Bradbury Group.  
+- I wrote [algorithms for stable and deterministic module replacement in transformers](https://arxiv.org/abs/2511.18670) with the Bradbury Group.
+- I engineered real-time solutions for [unsupervised network anomaly detection](https://www.trisul.org/blog/deep-learning-network-monitoring/) using ML
 
 <br>
 
