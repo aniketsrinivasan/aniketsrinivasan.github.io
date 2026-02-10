@@ -1,0 +1,18 @@
+<header class="site-header">
+  <nav class="container nav-container">
+    <a href="{{ '/' | relative_url }}" class="site-name">Aniket Srinivasan Ashok</a>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <!-- <li><a href="{{ '/cv' | relative_url }}" {% if page.url == '/cv/' or page.url == '/cv' %}class="active"{% endif %}>CV</a></li> -->
+      <li><a href="{{ '/writing' | relative_url }}" {% if page.url contains '/writing' %}class="active"{% endif %}>Writing</a></li>
+      <li><a href="{{ '/plate' | relative_url }}" {% if page.url contains '/plate' %}class="active"{% endif %}>Plate</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-moon">☽</span>
+          <span class="icon-sun">☀</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+

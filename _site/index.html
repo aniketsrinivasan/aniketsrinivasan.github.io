@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Aniket Srinivasan Ashok</title>
+  <meta name="description" content="ML Researcher & Undergraduate Student at the University of Waterloo">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to prevent flash.
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+  <nav class="container nav-container">
+    <a href="/" class="site-name">Aniket Srinivasan Ashok</a>
+    <ul class="nav-links">
+      <li><a href="/" class="active">Home</a></li>
+      <!-- <li><a href="/cv" >CV</a></li> -->
+      <li><a href="/writing" >Writing</a></li>
+      <li><a href="/plate" >Plate</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-moon">☽</span>
+          <span class="icon-sun">☀</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main class="container">
+    <div class="home-intro">
+  <img src="/assets/images/profile.jpg" alt="Aniket Srinivasan Ashok" class="home-photo" />
+  <div class="home-text">
+    <h1>Aniket Srinivasan Ashok</h1>
+    <p class="subtitle">Undergraduate @ University of Waterloo</p>
+    <div class="home-links">
+      <a href="mailto:a3sriniv@uwaterloo.ca">Email</a>
+      <a href="https://github.com/aniketsrinivasan" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/aniket-srinivasan-ashok" target="_blank">LinkedIn</a>
+      <a href="/files/resume.pdf">Resume</a>
+    </div>
+  </div>
+</div>
+
+<p>I’m an undergraduate student at the <strong>University of Waterloo</strong> studying Data Science and Pure Mathematics. My research interests lie in machine learning — particularly generative models and applied ML systems.</p>
+
+<div style="margin-top: 0.5rem;"></div>
+
+<p>Currently, I’m a <strong>Software Engineer Intern</strong> at <a href="https://viggle.ai/">Viggle AI</a> working on product and applied AI. Thus summer, I’ll be joining <a href="https://faire.com">Faire</a> as an <strong>ML Platform Engineer Intern</strong>.</p>
+
+<div style="margin-top: 0.5rem;"></div>
+
+<p>I also work part-time as an <strong>ML Researcher</strong> at <a href="https://bradburygroup.org/">Bradbury Group</a> on training methodologies for multimodal image editing adapters. <em>We are actively looking for co-authors</em>, so send me an email if you are interested in contributing.</p>
+
+<p><br /></p>
+
+<h2 id="things-im-doing">Things I’m Doing</h2>
+<ul>
+  <li>Eating and putting my thoughts in <a href="/plate">Plate</a>.</li>
+  <li>Sometimes hosting <a href="https://meethackos.vercel.app/">research hackathons</a> (you should come!)</li>
+  <li>Reading ML papers; I hope to soon write about some of my favourite ones!</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="things-ive-done">Things I’ve Done</h2>
+<ul>
+  <li>I went on exchange to the National University of Singapore (NUS) for Fall 2025.</li>
+  <li>I demoed audio-reactive generative art at the <a href="https://www.socratica.info/">Socratica</a> Symposium 2025.</li>
+  <li>I was the first engineering hire at <a href="https://caseclock.app/">CaseClock</a> where I built AI-native products for lawyers, from scratch.</li>
+  <li>I researched <a href="https://arxiv.org/abs/2512.13729">wind dynamics super-resolution</a> with Jacob Schnell, under Prof. Yuhao Chen, at the University of Waterloo.</li>
+  <li>I wrote <a href="https://arxiv.org/abs/2511.18670">algorithms for stable and deterministic module replacement in transformers</a> with the Bradbury Group.</li>
+</ul>
+
+<p><br /></p>
+
+<!-- ## Publications
+
+1. **DCR: Fast and Stable Module Replacement in Transformers** · [Paper](#)
+2. **Diffusion Models for Efficient and Accurate Super-Resolution of Wind Dynamics** · [Paper](#) -->
+
+
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Aniket Srinivasan Ashok</p>
+  </div>
+</footer>
+
+
+  <script>
+    document.querySelector('.theme-toggle').addEventListener('click', function() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
+

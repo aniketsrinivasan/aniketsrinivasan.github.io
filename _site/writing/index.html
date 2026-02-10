@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing | Aniket Srinivasan Ashok</title>
+  <meta name="description" content="ML Researcher & Undergraduate Student at the University of Waterloo">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to prevent flash.
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+  <nav class="container nav-container">
+    <a href="/" class="site-name">Aniket Srinivasan Ashok</a>
+    <ul class="nav-links">
+      <li><a href="/" >Home</a></li>
+      <!-- <li><a href="/cv" >CV</a></li> -->
+      <li><a href="/writing" class="active">Writing</a></li>
+      <li><a href="/plate" >Plate</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-moon">☽</span>
+          <span class="icon-sun">☀</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main class="container">
+    <article class="page-content">
+  <h1>Writing</h1>
+  
+<ul class="post-list">
+  
+  <li>
+    <a href="/writing/2026/02/09/hello-world/">Hello, World</a>
+    <span class="post-date">February 9, 2026</span>
+  </li>
+  
+</ul>
+
+
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Aniket Srinivasan Ashok</p>
+  </div>
+</footer>
+
+
+  <script>
+    document.querySelector('.theme-toggle').addEventListener('click', function() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
+
