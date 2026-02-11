@@ -17,29 +17,33 @@ title: Home
   </div>
 </div>
 
-I'm an undergraduate student at the **University of Waterloo** studying Data Science and Pure Mathematics. My research interests lie in machine learning — particularly generative models and applied ML systems. 
+I study at the **University of Waterloo**. I like ML research and pure mathematics.
 
 <div style="margin-top: 0.5rem;"></div>
 
-Currently, I'm a **Software Engineer Intern** at [Viggle AI](https://viggle.ai/) working on product and applied AI. Thus summer, I'll be joining [Faire](https://faire.com) as an **ML Platform Engineer Intern**.
+Currently, I'm at [Viggle AI](https://viggle.ai/) working on product and applied AI. This summer, I'll be joining [Faire](https://faire.com) to work on ML platforms.
 
 <div style="margin-top: 0.5rem;"></div>
 
-I also work part-time as an **ML Researcher** at [Bradbury Group](https://bradburygroup.org/) on training methodologies for multimodal image editing adapters. *We are actively looking for co-authors*, so send me an email if you are interested in contributing. 
+I also research training methodologies for multimodal image editing adapters. Send me an email if you want to build with me.
+
+<br>
+
+I've lived in India, Thailand, Morocco, and Singapore. Now, I'm in Canada.
 
 <br>
 
 ## Things I'm Doing
 - Eating and putting my thoughts in [Plate]({{ '/plate' | relative_url }}).
 - Sometimes hosting [research hackathons](https://meethackos.vercel.app/) (you should come!)
-- Reading ML papers; I hope to soon write about some of my favourite ones! 
+- Reading ML papers. 
 
 <br>
 
 ## Things I've Done
 - I went on exchange to the National University of Singapore (NUS) for Fall 2025.
 - I demoed audio-reactive generative art at the [Socratica](https://www.socratica.info/) Symposium 2025.
-- I was the first engineering hire at [CaseClock](https://caseclock.ai/) where I built AI-native products for lawyers, from scratch.
+- I built AI-native products for lawyers at [CaseClock](https://caseclock.ai/).
 - I researched [wind dynamics super-resolution](https://arxiv.org/abs/2512.13729) with Jacob Schnell, under Prof. Yuhao Chen, at the University of Waterloo.
 - I wrote [algorithms for stable and deterministic module replacement in transformers](https://arxiv.org/abs/2511.18670) with the Bradbury Group.
 - I engineered real-time solutions for [unsupervised network anomaly detection](https://www.trisul.org/blog/deep-learning-network-monitoring/) by intentionally overfitting VAEs on network heatmaps.
