@@ -17,17 +17,13 @@ title: Home
   </div>
 </div>
 
-I study at the **University of Waterloo**. I like ML research and pure mathematics.
+*I study at the **University of Waterloo**. I like ML research and pure mathematics.*
 
 <div style="margin-top: 0.5rem;"></div>
 
-Currently, I'm at [Viggle AI](https://viggle.ai/) working on product and applied AI. This summer, I'll be joining [Faire](https://faire.com) to work on ML platforms.
+Currently, I'm at [Viggle AI](https://viggle.ai/) working on product and applied AI. This summer, I'll be joining [Faire](https://faire.com) to work on ML platforms. I also research training methodologies for multimodal image editing adapters. *Send me an email if you want to build with me.*
 
 <div style="margin-top: 0.5rem;"></div>
-
-I also research training methodologies for multimodal image editing adapters. Send me an email if you want to build with me.
-
-<br>
 
 I've lived in India, Thailand, Morocco, and Singapore. Now, I'm in Canada.
 
@@ -35,16 +31,16 @@ I've lived in India, Thailand, Morocco, and Singapore. Now, I'm in Canada.
 
 ## Things I'm Doing
 - Eating and putting my thoughts in [Plate]({{ '/plate' | relative_url }}).
-- Sometimes hosting [research hackathons](https://meethackos.vercel.app/) (you should come!)
+- Sometimes hosting [research hackathons](https://meethackos.vercel.app/) (you should come!).
 - Reading ML papers. 
 
 <br>
 
 ## Things I've Done
-- I went on exchange to the National University of Singapore (NUS) for Fall 2025.
-- I demoed audio-reactive generative art at the [Socratica](https://www.socratica.info/) Symposium 2025.
+- I went on exchange to the National University of Singapore in Fall 2025.
+- I demoed at the [Socratica](https://www.socratica.info/) Symposium 2025.
 - I built AI-native products for lawyers at [CaseClock](https://caseclock.ai/).
-- I researched [wind dynamics super-resolution](https://arxiv.org/abs/2512.13729) with Jacob Schnell, under Prof. Yuhao Chen, at the University of Waterloo.
+- I researched [wind dynamics super-resolution using conditional diffusion models](https://arxiv.org/abs/2512.13729).
 - I wrote [algorithms for stable and deterministic module replacement in transformers](https://arxiv.org/abs/2511.18670) with the Bradbury Group.
 - I engineered real-time solutions for [unsupervised network anomaly detection](https://www.trisul.org/blog/deep-learning-network-monitoring/) by intentionally overfitting VAEs on network heatmaps.
 
