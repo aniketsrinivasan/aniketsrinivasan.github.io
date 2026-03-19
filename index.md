@@ -17,11 +17,11 @@ title: Home
   </div>
 </div>
 
-*I study at the **University of Waterloo**. I like ML research and pure mathematics.*
+*I study at the **University of Waterloo**. I like ML infra, research, and pure mathematics.*
 
 <div style="margin-top: 0.5rem;"></div>
 
-Currently, I'm at [Viggle AI](https://viggle.ai/) working on product and applied AI. This summer, I'll be joining [Faire](https://faire.com) to work on ML platforms. I also research training methodologies for multimodal image editing adapters. *Send me an email if you want to build with me.*
+Currently, I'm at [Viggle AI](https://viggle.ai/) working on product, infra, and applied AI. This summer, I'll be joining [Faire](https://faire.com) to work on ML platforms. I also research training methodologies for multimodal image editing adapters and build tools for analysing model training dynamics.
 
 <div style="margin-top: 0.5rem;"></div>
 
@@ -30,9 +30,7 @@ I've lived in India, Thailand, Morocco, and Singapore. Now, I'm in Canada.
 <br>
 
 ## Things I'm Doing
-- Eating and putting my thoughts in [Plate]({{ '/plate' | relative_url }}).
-- Sometimes hosting [research hackathons](https://meethackos.vercel.app/) (you should come!).
-- Reading ML papers. 
+- Living in Toronto and eating a lot of food
 
 <br>
 
