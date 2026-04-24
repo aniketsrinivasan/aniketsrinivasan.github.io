@@ -37,14 +37,20 @@ I've lived in India, Thailand, Morocco, and Singapore. Now, I'm in Canada.
 
 ## Things I've Done
 - I went on exchange to the National University of Singapore in Fall 2025.
-- I summited Mt Rinjani in Lombok, Indonesia (3,726m) with the amazing Rinjani Climbing Tours.
-- I got my PADI OW diving certification in Malaysia (shoutout Tioman Dive Buddy!), and hope to get my AOW in Canada soon.
+- I summited Mt Rinjani in Lombok, Indonesia (3,726m) with an amazing group of friends and strangers.
+- I got my PADI OW diving certification in Malaysia (shoutout Tioman Dive Buddy!).
 - I built AI-native products for lawyers at [CaseClock](https://caseclock.ai/).
 - I researched [wind dynamics super-resolution using conditional diffusion models](https://arxiv.org/abs/2512.13729).
 - I wrote [algorithms for stable and deterministic module replacement in transformers](https://arxiv.org/abs/2511.18670) with the Bradbury Group, accepted to NeurIPS ScaleOPT 2025!
 - I engineered real-time solutions for [unsupervised network anomaly detection](https://www.trisul.org/blog/deep-learning-network-monitoring/).
 
 <br>
+
+## Things I Want To Do 
+- Learn to fly (get my glider pilot license!)
+- Rediscover my love for drawing and painting (starting with plein air watercolour)
+- Get my PADI AOW certification in Canada, and explore the beautiful shipwrecks of Ontario
+- Build communities of wonderful people doing wonderful things
 
 <!-- ## Publications
 
