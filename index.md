@@ -17,11 +17,13 @@ title: home
   </div>
 </div>
 
-*i study at the **university of water**. i like ML research, pure mathematics, and infra problems. 
+*i study at the **university of water**. i like ML research, pure mathematics, and infra problems.*
 
 <div style="margin-top: 0.5rem;"></div>
 
 this winter, i'll be at [castform](https://castform.com/) working on LLM post-training and distributed infra. in the past, i've worked on ML platform and monitoring systems at [faire](https://faire.com), algorithms at [viggle](https://viggle.ai), and engineering at small startups. 
+
+<div style="margin-top: 0.5rem;"></div>
 
 in my free time, i research lossless model compression algorithms, spend time at [socratica](https://socratica.info), go indoor bouldering, and am working on my first travel short film :)
 
