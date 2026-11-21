@@ -4,7 +4,7 @@ title: plate
 permalink: /plate/
 ---
 
-meals i've enjoyed over the years.
+meals i've enjoyed over the years! WIP :)
 
 <div class="plate-list">
 

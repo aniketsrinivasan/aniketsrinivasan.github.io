@@ -4,7 +4,7 @@ title: frames
 permalink: /frames/
 ---
 
-places i've been, through my camera.
+places i've been and things i've captured
 
 {% if site.data.frames.size > 0 %}
 {% for group in site.data.frames %}
