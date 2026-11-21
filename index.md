@@ -17,7 +17,7 @@ title: home
   </div>
 </div>
 
-*i study at the **university of water**. i like ML research, pure mathematics, and infra problems.*
+*i study at the **university of waterloo**. i like ML research, pure mathematics, and infra problems.*
 
 <div style="margin-top: 0.5rem;"></div>
 
