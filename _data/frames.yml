@@ -1,0 +1,14 @@
+# Photos for the frames page. Put image files in /assets/images/frames/.
+# Groups and photos appear in the order listed. Place and caption are optional.
+#
+# - place: morocco
+#   photos:
+#     - src: /assets/images/frames/chefchaouen.jpg
+#       caption: chefchaouen · 2023
+#
+# - photos:
+#     - src: /assets/images/frames/untitled.jpg
+
+- photos:
+    - src: /assets/images/frames/DSC00627.jpeg
+    - src: /assets/images/frames/IMG_3784.jpeg

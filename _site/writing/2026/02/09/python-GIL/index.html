@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On the Python GIL and Multi-threading | aniket srinivasan ashok</title>
+  <meta name="description" content="ML Researcher & Undergraduate Student at the University of Waterloo">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to prevent flash.
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+  <nav class="container nav-container">
+    <a href="/" class="site-name">aniket srinivasan ashok</a>
+    <ul class="nav-links">
+      <li><a href="/" >home</a></li>
+      <!-- <li><a href="/cv" >cv</a></li> -->
+      <li><a href="/writing" class="active">writing</a></li>
+      <li><a href="/plate" >plate</a></li>
+      <li><a href="/frames" >frames</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-moon">☽</span>
+          <span class="icon-sun">☀</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+  <main class="container">
+    <article class="page-content">
+  <h1>On the Python GIL and Multi-threading</h1>
+  <p>before python 3.13, there was no “real parallelism” in python. here, i’ll yap a little bit about concurrency and python. anytime i mention python here, i’ll be referring to the cpython interpreter.</p>
+
+<h2 id="before-concurrency">before concurrency</h2>
+<p>when python was initially created (around 1989), processors had very few cores. the ideology was that processors could be scaled vertically and be made faster, instead of horizontally. therefore, the programming paradigms that were present in the late 1980s were significantly different from what we are used to today: they focused on optimizing execution on one processor instead of multiple processors.</p>
+
+<p>the <strong>stanford hydra chip multiprocessor</strong> (CMP) in the 1990s was one of the first projects that demonstrated the viability of multi-core processors, and it caught on. many programming languages (like C) started supporting multithreading, so python’s creator <em>guido van rossum</em> thought it would be a good idea to implement multithreading support in python as well.</p>
+
+<p>however, python is interpreted, and support for true parallel execution (which was still quite unpopular at the time) would’ve meant a full overhaul of the entire core interpreter logic. to avoid this, the GIL was born.</p>
+
+<h2 id="the-python-interpreter">the python interpreter</h2>
+
+
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 aniket srinivasan ashok</p>
+  </div>
+</footer>
+
+
+  <script>
+    document.querySelector('.theme-toggle').addEventListener('click', function() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
+

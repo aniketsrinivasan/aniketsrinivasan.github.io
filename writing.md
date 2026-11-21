@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writing
+title: writing
 permalink: /writing/
 ---
 
@@ -9,11 +9,11 @@ permalink: /writing/
   {% for post in site.posts %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <span class="post-date">{{ post.date | date: "%B %-d, %Y" | downcase }}</span>
   </li>
   {% endfor %}
 </ul>
 {% else %}
-Nothing here yet — check back soon.
+nothing here yet. check back soon.
 {% endif %}
 

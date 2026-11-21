@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Plate
+title: plate
 permalink: /plate/
 ---
 
-Restaurants I've enjoyed, loosely ranked. Empty for now.
+meals i've enjoyed over the years.
 
 <div class="plate-list">
 

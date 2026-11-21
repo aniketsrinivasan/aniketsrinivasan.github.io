@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frames | aniket srinivasan ashok</title>
+  <meta name="description" content="ML Researcher & Undergraduate Student at the University of Waterloo">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to prevent flash.
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+  <nav class="container nav-container">
+    <a href="/" class="site-name">aniket srinivasan ashok</a>
+    <ul class="nav-links">
+      <li><a href="/" >home</a></li>
+      <!-- <li><a href="/cv" >cv</a></li> -->
+      <li><a href="/writing" >writing</a></li>
+      <li><a href="/plate" >plate</a></li>
+      <li><a href="/frames" class="active">frames</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-moon">☽</span>
+          <span class="icon-sun">☀</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+  <main class="container">
+    <article class="page-content">
+  <h1>frames</h1>
+  <p>places i’ve been, through my camera.</p>
+
+<p>nothing here yet. check back soon.</p>
+
+<div class="lightbox" aria-hidden="true">
+  <img class="lightbox-img" alt="" />
+  <p class="lightbox-caption"></p>
+</div>
+
+<script src="/assets/js/lightbox.js"></script>
+
+
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 aniket srinivasan ashok</p>
+  </div>
+</footer>
+
+
+  <script>
+    document.querySelector('.theme-toggle').addEventListener('click', function() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
+
