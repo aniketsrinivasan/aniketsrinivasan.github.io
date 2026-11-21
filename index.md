@@ -25,7 +25,7 @@ this winter, i'll be at [castform](https://castform.com/) working on LLM post-tr
 
 <div style="margin-top: 0.5rem;"></div>
 
-in my free time, i research lossless model compression algorithms, spend time at [socratica](https://socratica.info), go indoor bouldering, and am working on my first travel short film :)
+in my free time, i [research lossless model compression algorithms](https://arxiv.org/abs/2610.14184), spend time at [socratica](https://socratica.info), go indoor bouldering, and am working on my first short film :)
 
 <div style="margin-top: 0.5rem;"></div>
 
