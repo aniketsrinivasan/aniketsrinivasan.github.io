@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "On the Python GIL and Multi-threading"
-date: 2026-02-09
+title: "on the python GIL and multi-threading"
+date: 2026-11-20
 ---
 
 
@@ -17,4 +17,5 @@ however, python is interpreted, and support for true parallel execution (which w
 
 
 ## the python interpreter 
+WIP! i have notes i want to add soon :)
 
